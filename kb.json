@@ -775,3 +775,151 @@
     "unknown_reply": "This isn't a known issue in our documentation. Please ping a staff member for further assistance."
   }
 }
+{
+  "id": "issue_44",
+  "title": "Random Anti-Cheat Kick",
+  "category": "ban",
+  "keywords": [
+    "random kick",
+    "anti cheat kick",
+    "kicked for no reason"
+  ],
+  "match_phrases": [
+    "i got kicked for no reason",
+    "anti cheat kicked me",
+    "random kick"
+  ],
+  "cause": "Executor detection or suspicious behavior.",
+  "reply": "Random kicks are usually anti-cheat related.",
+  "steps": [
+    "Avoid extreme or obvious settings.",
+    "Switch to a supported executor.",
+    "Do not use multiple scripts together.",
+    "Rejoin and try again more safely."
+  ]
+}
+{
+  "id": "issue_46",
+  "title": "Black Screen After Executing Script",
+  "category": "executor",
+  "keywords": [
+    "black screen",
+    "screen goes black",
+    "black screen after execute"
+  ],
+  "match_phrases": [
+    "my screen went black",
+    "black screen after executing",
+    "game turns black"
+  ],
+  "cause": "Executor rendering issue or script conflict.",
+  "reply": "Black screen issues are usually executor-related.",
+  "steps": [
+    "Rejoin the game and execute again.",
+    "Restart Roblox and your executor.",
+    "Update your executor.",
+    "Disable Auto Execute.",
+    "Switch to a supported executor if it continues."
+  ]
+}
+{
+  "id": "issue_52",
+  "title": "Game Freezes When Executing Script",
+  "category": "executor",
+  "keywords": [
+    "freeze on execute",
+    "game freeze",
+    "freezes when injecting"
+  ],
+  "match_phrases": [
+    "game freezes when i execute",
+    "roblox froze after injecting",
+    "freeze on script"
+  ],
+  "cause": "Executor instability or heavy script load.",
+  "reply": "Freezing during execution is usually executor-related.",
+  "steps": [
+    "Execute the script in a private server.",
+    "Restart Roblox and your executor.",
+    "Delete the kiciahook folder in workspace.",
+    "Disable Auto Execute.",
+    "Use a supported executor."
+  ]
+}
+{
+  "id": "issue_58",
+  "title": "Bought But Did Not Receive Key / Product",
+  "category": "support_only",
+  "keywords": [
+    "didnt receive key",
+    "no key after payment",
+    "bought but nothing",
+    "payment but no product",
+    "didnt get product"
+  ],
+  "match_phrases": [
+    "i bought but didnt get anything",
+    "no key after buying",
+    "paid but no key",
+    "i didnt receive my product",
+    "bought but no access"
+  ],
+  "cause": "Payment delay or reseller issue.",
+  "reply": "If you purchased but didn’t receive your key:",
+  "steps": [
+    "Contact the reseller you bought from FIRST.",
+    "If no response, join the official Discord.",
+    "Go to the support/tickets section.",
+    "Create a ticket and provide proof of purchase (receipt, screenshot, transaction ID).",
+    "Wait for staff to review your case."
+  ],
+  "important_notes": [
+    "Only staff can resolve payment issues.",
+    "Always buy from verified resellers."
+  ]
+}
+{
+  "id": "issue_69",
+  "title": "Script Conflict With Other Scripts",
+  "category": "executor",
+  "keywords": [
+    "conflict",
+    "multiple scripts",
+    "scripts breaking each other"
+  ],
+  "match_phrases": [
+    "using two scripts",
+    "script broke after using another",
+    "conflict with other script"
+  ],
+  "cause": "Multiple scripts interfering with each other.",
+  "reply": "Running multiple scripts can cause conflicts.",
+  "steps": [
+    "Use ONLY KiciaHook.",
+    "Remove other scripts.",
+    "Rejoin the game.",
+    "Execute again cleanly."
+  ]
+}
+{
+  "id": "issue_72",
+  "title": "Script Breaks After Server Hop",
+  "category": "executor",
+  "keywords": [
+    "server hop bug",
+    "after switching server",
+    "server change broke script"
+  ],
+  "match_phrases": [
+    "after server hop it stopped working",
+    "script broke after joining new server",
+    "switch server bug"
+  ],
+  "cause": "Script not reinitializing after server change.",
+  "reply": "Server hopping can break the script state.",
+  "steps": [
+    "Re-execute the script after joining a new server.",
+    "Avoid hopping too frequently.",
+    "Restart Roblox if issue continues."
+  ]
+}
