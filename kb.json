@@ -1,11 +1,12 @@
 {
   "meta": {
     "name": "KiciaHook Support Knowledge Base",
-    "last_updated": "2026-03-29",
+    "last_updated": "2026-04-16",
+    "version": "2.0",
     "support_server": "https://discord.gg/WAnkEtzgh4",
     "notes": [
-      "Most issues are caused by unsupported or outdated executors.",
-      "Always check supported executors first.",
+      "Most issues are caused by executing in the main lobby, outdated Roblox, or unsupported executors.",
+      "Always check supported executors first when troubleshooting.",
       "Do not invent fixes that are not in this knowledge base."
     ],
     "fallback_reply": "I couldn't confidently find a solution for that. Please ping a staff member for help."
@@ -18,11 +19,7 @@
         "type": "paid",
         "compatibility": "fully compatible, recommended",
         "link": "https://getisaeva.xyz/",
-        "aliases": [
-          "isaeva",
-          "isaeava",
-          "isaeva executor"
-        ]
+        "aliases": ["isaeva", "isaeava", "isaeva executor", "isava"]
       },
       {
         "name": "Potassium",
@@ -30,13 +27,7 @@
         "type": "paid",
         "compatibility": "fully compatible",
         "link": "https://potassium.pro/",
-        "aliases": [
-          "potassium",
-          "potas",
-          "pot",
-          "psm",
-          "potasium"
-        ]
+        "aliases": ["potassium", "potas", "pot", "psm", "potasium", "potassium executor"]
       },
       {
         "name": "Yub X",
@@ -44,16 +35,8 @@
         "type": "free",
         "compatibility": "fully compatible",
         "link": "https://yub-x.com/",
-        "aliases": [
-          "yub x",
-          "yub-x",
-          "yubx",
-          "yab",
-          "yub"
-        ],
-        "notes": [
-          "Uses a key system."
-        ]
+        "aliases": ["yub x", "yub-x", "yubx", "yab", "yub", "yub executor"],
+        "notes": ["Uses a key system."]
       },
       {
         "name": "Madium",
@@ -61,96 +44,101 @@
         "type": "free",
         "compatibility": "fully compatible",
         "link": "https://discord.gg/olemad",
-        "aliases": [
-          "madium",
-          "mad",
-          "madium executor"
-        ]
+        "aliases": ["madium", "mad", "madium executor", "madiu"]
+      },
+      {
+        "name": "Synapse Z",
+        "status": "supported",
+        "type": "paid",
+        "compatibility": "fully compatible",
+        "link": "https://discord.gg/synz",
+        "aliases": ["synapse z", "synz", "synapse", "syn z", "synapsez", "syn"]
+      },
+      {
+        "name": "Volt",
+        "status": "supported",
+        "type": "paid",
+        "compatibility": "fully compatible",
+        "aliases": ["volt", "volt executor", "volts"]
       }
     ],
     "temporarily_not_working": [],
     "not_recommended": [
       {
-        "name": "Synapse Z",
-        "status": "not_recommended",
-        "aliases": [
-          "synapse z",
-          "synz",
-          "synapse",
-          "syn z",
-          "synapsez"
-        ],
-        "reply": "Synapse Z is detected right now. Use it at your own risk. It is highly recommended to switch to a fully supported executor.",
-        "link": "https://discord.gg/synz"
-      },
-      {
         "name": "Cosmic",
         "status": "not_recommended",
-        "aliases": [
-          "cosmic",
-          "cosmic executor"
-        ],
+        "aliases": ["cosmic", "cosmic executor"],
         "reply": "Cosmic is experimental and may work, but is not officially supported.",
         "link": "https://discord.gg/getcosmic"
       },
       {
         "name": "Delta",
         "status": "not_recommended",
-        "aliases": [
-          "delta",
-          "delta executor"
-        ],
+        "aliases": ["delta", "delta executor"],
         "reply": "Delta is experimental and may work, but is not officially supported. To fix not-loading or freezing: turn off **Auto Execute** in Delta settings, then follow the known issues guide: https://kiciahook.gitbook.io/docs/kiciahook-known-issues. Note: freezing after a few matches is a known Delta issue that Delta themselves need to fix.",
         "link": "https://deltaexploits.gg/"
       },
       {
         "name": "Velocity",
         "status": "not_recommended",
-        "aliases": [
-          "velocity",
-          "velo",
-          "velocity executor"
-        ],
-        "reply": "Velocity does not work fully -- projectiles crash. It is recommended to use a fully supported executor instead."
+        "aliases": ["velocity", "velo", "velocity executor"],
+        "reply": "Velocity does not work fully — projectiles crash. It is recommended to use a fully supported executor instead."
       },
       {
         "name": "Ronix",
         "status": "not_recommended",
-        "aliases": [
-          "ronix",
-          "ronix executor"
-        ],
-        "reply": "Ronix does not work fully -- projectiles crash. It is recommended to use a fully supported executor instead."
-      },
-      {
-        "name": "Volt",
-        "status": "not_recommended",
-        "aliases": [
-          "volt",
-          "volt executor"
-        ],
-        "reply": "Volt is known to be detected. Use at your own risk. It is highly recommended to switch to a fully supported executor."
+        "aliases": ["ronix", "ronix executor"],
+        "reply": "Ronix does not work fully — projectiles crash. It is recommended to use a fully supported executor instead."
       }
     ],
     "unsupported": [
       {
         "name": "Xeno",
         "status": "unsupported",
-        "aliases": [
-          "xeno",
-          "xeno executor"
-        ],
+        "aliases": ["xeno", "xeno executor"],
         "reply": "Xeno is unsupported and does not work with KiciaHook. Please switch to a supported executor."
       },
       {
         "name": "Solara",
         "status": "unsupported",
-        "aliases": [
-          "solara",
-          "sol",
-          "solara executor"
-        ],
+        "aliases": ["solara", "sol", "solara executor"],
         "reply": "Solara is unsupported and does not work with KiciaHook. Please switch to a supported executor."
+      },
+      {
+        "name": "Fluxus",
+        "status": "unsupported",
+        "aliases": ["fluxus", "flux", "fluxus executor"],
+        "reply": "Fluxus is unsupported and does not work with KiciaHook. Please switch to a supported executor."
+      },
+      {
+        "name": "Krnl",
+        "status": "unsupported",
+        "aliases": ["krnl", "krnl executor"],
+        "reply": "Krnl is unsupported and does not work with KiciaHook. Please switch to a supported executor."
+      },
+      {
+        "name": "Swift",
+        "status": "unsupported",
+        "aliases": ["swift", "swift executor"],
+        "reply": "Swift is unsupported and does not work with KiciaHook. Please switch to a supported executor."
+      },
+      {
+        "name": "Evon",
+        "status": "unsupported",
+        "aliases": ["evon", "evon executor"],
+        "reply": "Evon is unsupported and does not work with KiciaHook. Please switch to a supported executor."
+      },
+      {
+        "name": "Celery",
+        "status": "unsupported",
+        "aliases": ["celery", "celery executor"],
+        "reply": "Celery is unsupported and does not work with KiciaHook. Please switch to a supported executor."
+      },
+      {
+        "name": "Ronin",
+        "status": "unsupported",
+        "aliases": ["ronin", "ronin executor"],
+        "reply": "Ronin is unsupported and does not work with KiciaHook. Please switch to a supported executor."
       }
     ]
   },
@@ -160,45 +148,27 @@
       "title": "GUI Not Loading / Security Kick 1 / FPS Drops / Lag / Lobby Issue",
       "category": "executor",
       "keywords": [
-        "freeze",
-        "freezes",
-        "frozen",
-        "gui not loading",
-        "ui not showing",
-        "security kick 1",
-        "fps drops",
-        "lag",
-        "screen froze",
-        "game froze",
-        "nothing loads",
-        "lobby",
-        "main menu",
-        "doesnt work",
-        "not working",
-        "wont load",
-        "script not loading"
+        "freeze", "freezes", "frozen", "freezing",
+        "gui not loading", "gui wont load", "ui not showing", "ui gone", "no gui",
+        "security kick 1", "security kick", "kick", "kicked",
+        "fps drops", "fps drop", "lag", "laggy", "lagging", "stutter",
+        "screen froze", "game froze", "game freezes",
+        "nothing loads", "nothing happens", "nothing works",
+        "lobby", "main menu", "menu",
+        "doesnt work", "not working", "wont work", "not loading", "wont load",
+        "script not loading", "script wont load", "kicia not opening", "kicia wont open"
       ],
       "match_phrases": [
-        "gui not loading",
-        "ui not showing",
-        "security kick 1",
-        "fps drops",
-        "lag on execute",
-        "script causes lag",
-        "my ui gone",
-        "kicia not opening",
-        "game freezes when i execute",
-        "security kick",
-        "screen froze",
-        "game froze",
-        "cannot confirm key",
-        "key confirm",
-        "doesnt work in lobby",
-        "broken in lobby",
-        "kicia doesnt work",
-        "kiciahook not working",
-        "doesnt load",
-        "wont work"
+        "gui not loading", "ui not showing", "no gui", "no ui",
+        "security kick 1", "security kick", "getting kicked",
+        "fps drops", "lag on execute", "script causes lag", "fps drop when",
+        "my ui gone", "ui gone", "kicia not opening",
+        "game freezes when i execute", "freezes on execute",
+        "screen froze", "game froze", "froze after execute",
+        "cannot confirm key", "key confirm",
+        "doesnt work in lobby", "broken in lobby", "wont load in lobby",
+        "kicia doesnt work", "kiciahook not working",
+        "doesnt load", "wont load", "wont work", "not loading"
       ],
       "cause": "Executing the script in the main lobby, using an unsupported executor, or using the wrong script.",
       "reply": "KiciaHook currently does **not** work in the main lobby. If your game is freezing, lagging, the GUI isn't loading, or you're getting kicked, it is almost always one of these things:",
@@ -209,33 +179,23 @@
         "Make sure you copied the correct full script from the panel.",
         "**Free script panel:** <https://discord.com/channels/1279483425002361003/1298767534736277595>",
         "**Premium script panel:** <https://discord.com/channels/1279483425002361003/1484259191039332473>",
-        "**If none of the above solutions work** -> Go to your executor's workspace folder and delete kiciahook and execute again."
-      ],
-      "important_notes": []
+        "**If none of the above work** → Go to your executor's workspace folder, delete the `kiciahook` folder, and execute again."
+      ]
     },
     {
       "id": "issue_2",
       "title": "How to Load a Config",
       "category": "config",
       "keywords": [
-        "load config",
-        "import config",
-        "config not showing",
-        "where do i put config",
-        "json config",
-        "use config",
-        "apply config"
+        "load config", "import config", "config not showing", "config wont show",
+        "where do i put config", "where to put config", "json config", "json file",
+        "use config", "apply config", "insert config", "add config"
       ],
       "match_phrases": [
-        "load config",
-        "import config",
-        "config not showing",
-        "where do i put config",
-        "where config go",
-        "my config wont show",
-        "how to put config",
-        "where to paste config",
-        "apply config"
+        "load config", "import config", "config not showing",
+        "where do i put config", "where config go", "my config wont show",
+        "how to put config", "where to paste config", "apply config",
+        "i have a config", "got a config how to"
       ],
       "reply": "Here is how to properly place and load your `.json` config file:",
       "steps": [
@@ -252,21 +212,13 @@
       "title": "How to Create / Save a Config",
       "category": "config",
       "keywords": [
-        "create config",
-        "save config",
-        "make config",
-        "settings save",
-        "new config",
-        "my own config"
+        "create config", "save config", "make config", "settings save",
+        "new config", "my own config", "save settings"
       ],
       "match_phrases": [
-        "create config",
-        "save config",
-        "make config",
-        "settings save",
-        "how to save config",
-        "where is save button",
-        "config save"
+        "create config", "save config", "make config",
+        "settings save", "how to save config", "where is save button",
+        "config save", "how do i save my settings"
       ],
       "reply": "You can easily create and save your own settings inside the script:",
       "steps": [
@@ -282,22 +234,14 @@
       "title": "No HWID Found Error",
       "category": "script",
       "keywords": [
-        "no hwid found",
-        "hwid error",
-        "incorrect script",
-        "broken script",
-        "script not working",
-        "hwid not found"
+        "no hwid found", "hwid error", "incorrect script",
+        "broken script", "script not working", "hwid not found",
+        "cant find hwid"
       ],
       "match_phrases": [
-        "no hwid found",
-        "hwid error",
-        "incorrect script",
-        "hwid thing",
-        "it says no hwid",
-        "script says hwid",
-        "cant find hwid",
-        "hwid not found"
+        "no hwid found", "hwid error", "incorrect script", "hwid thing",
+        "it says no hwid", "script says hwid", "cant find hwid",
+        "hwid not found", "hwid issue"
       ],
       "reply": "This means you are using an incomplete or broken script. Here is how to fix it:",
       "steps": [
@@ -312,48 +256,31 @@
       "title": "How to Reset HWID",
       "category": "account",
       "keywords": [
-        "reset hwid",
-        "hwid reset",
-        "change hwid",
-        "new pc",
-        "new computer",
-        "hwid change"
+        "reset hwid", "hwid reset", "change hwid",
+        "new pc", "new computer", "hwid change", "different pc"
       ],
       "match_phrases": [
-        "reset hwid",
-        "hwid reset",
-        "change hwid",
-        "new executor reset hwid",
-        "how do i reset hwid",
-        "need to reset hwid",
-        "new pc hwid",
-        "changed pc",
+        "reset hwid", "hwid reset", "change hwid",
+        "new executor reset hwid", "how do i reset hwid",
+        "need to reset hwid", "new pc hwid", "changed pc",
         "changed executor need hwid reset"
       ],
-      "reply": "We no longer manually reset HWIDs. Please wait out your cooldown.",
-      "steps": []
+      "reply": "We no longer manually reset HWIDs. Please wait out your cooldown."
     },
     {
       "id": "issue_6",
       "title": "Roblox Version Mismatch / Executor Outdated",
       "category": "version",
       "keywords": [
-        "roblox version mismatch",
-        "roblox live version",
-        "executor outdated",
-        "downgrade roblox",
-        "version error",
-        "roblox update"
+        "roblox version mismatch", "roblox live version", "executor outdated",
+        "downgrade roblox", "version error", "roblox update", "roblox updated",
+        "version mismatch", "outdated"
       ],
       "match_phrases": [
-        "roblox outdated",
-        "roblox version mismatch",
-        "roblox live version",
-        "executor outdated",
-        "downgrade roblox",
-        "version mismatch",
-        "roblox updated and now it wont work",
-        "how to downgrade roblox"
+        "roblox outdated", "roblox version mismatch", "roblox live version",
+        "executor outdated", "downgrade roblox", "version mismatch",
+        "roblox updated and now it wont work", "how to downgrade roblox",
+        "new roblox update broke"
       ],
       "reply": "Roblox has updated, but your executor hasn't caught up yet. You have two options:",
       "steps": [
@@ -371,19 +298,14 @@
       "title": "Difference Between Free and Premium",
       "category": "product",
       "keywords": [
-        "free vs premium",
-        "difference free premium",
-        "orbit aura",
-        "premium features",
-        "worth buying premium"
+        "free vs premium", "difference free premium", "orbit aura",
+        "premium features", "worth buying premium", "why premium",
+        "what does premium have"
       ],
       "match_phrases": [
-        "premium vs free",
-        "free vs premium",
-        "difference between free and premium",
-        "what does premium have",
-        "what is different in premium",
-        "is premium worth it"
+        "premium vs free", "free vs premium", "difference between free and premium",
+        "what does premium have", "what is different in premium",
+        "is premium worth it", "should i buy premium"
       ],
       "reply": "The main difference is **Orbit Aura**, which is exclusive to KiciaHook Premium. Premium offers stronger combat performance overall, but your results still depend heavily on your config settings."
     },
@@ -392,20 +314,13 @@
       "title": "Lost a Fight While Using Premium",
       "category": "config",
       "keywords": [
-        "premium lost fight",
-        "bad config",
-        "weak settings",
-        "not winning with premium",
-        "premium not working"
+        "premium lost fight", "bad config", "weak settings",
+        "not winning with premium", "premium not working", "premium weak"
       ],
       "match_phrases": [
-        "premium bad",
-        "premium lost fight",
-        "bad config",
-        "weak settings",
-        "i still lost with premium",
-        "got smoked with premium",
-        "kicia doesnt work"
+        "premium bad", "premium lost fight", "bad config", "weak settings",
+        "i still lost with premium", "got smoked with premium",
+        "premium doesnt hit", "premium not hitting"
       ],
       "reply": "This is almost always a config issue, not a premium issue. A free user with a perfect config can easily beat a premium user with a bad config.",
       "steps": [
@@ -418,29 +333,20 @@
       "title": "Banned / Detected",
       "category": "ban",
       "keywords": [
-        "banned",
-        "detected",
-        "anticheat ban",
-        "mod ban",
-        "banned for no reason",
-        "got banned",
-        "kicia detected"
+        "banned", "detected", "anticheat ban", "mod ban",
+        "banned for no reason", "got banned", "kicia detected",
+        "account banned", "i got banned"
       ],
       "match_phrases": [
-        "banned",
-        "got banned",
-        "detected",
-        "anticheat ban",
-        "mod ban",
-        "i got banned with only kicia",
-        "is kicia detected",
-        "random ban"
+        "got banned", "i got banned", "random ban",
+        "anticheat ban", "mod ban", "i got banned with only kicia",
+        "is kicia detected", "will i get banned"
       ],
       "reply": "KiciaHook is thoroughly tested to remain undetected. If you were banned, it was likely due to one of these reasons:",
       "steps": [
-        "Manual Ban: You were obviously cheating in front of a game moderator.",
-        "Executor Detection: You are using an unsupported/detected executor (like Volt).",
-        "Other Scripts: You ran other detected scripts alongside KiciaHook."
+        "**Manual ban** — you were obviously cheating in front of a game moderator.",
+        "**Executor detection** — you're using an unsupported or detected executor.",
+        "**Other scripts** — you ran other detected scripts alongside KiciaHook."
       ]
     },
     {
@@ -448,20 +354,12 @@
       "title": "Account Transfers / Discord Server Ban",
       "category": "support_only",
       "keywords": [
-        "account transfer",
-        "transferred account",
-        "discord ban",
-        "banned from discord",
-        "server ban",
-        "transfer account"
+        "account transfer", "transferred account", "discord ban",
+        "banned from discord", "server ban", "transfer account"
       ],
       "match_phrases": [
-        "account transfer",
-        "discord ban",
-        "banned from discord",
-        "my discord got banned",
-        "help with transfer",
-        "transfer my account"
+        "account transfer", "discord ban", "banned from discord",
+        "my discord got banned", "help with transfer", "transfer my account"
       ],
       "reply": "This needs to be handled by staff. Please ping a staff member in the server."
     },
@@ -470,20 +368,12 @@
       "title": "Security Kick 2 / AutoExec Conflict",
       "category": "executor",
       "keywords": [
-        "security kick 2",
-        "autoexec issue",
-        "auto execute problem",
-        "script runs before kiciahook",
-        "kick 2"
+        "security kick 2", "autoexec issue", "auto execute problem",
+        "script runs before kiciahook", "kick 2", "security 2"
       ],
       "match_phrases": [
-        "security kick 2",
-        "autoexec issue",
-        "script runs before kiciahook",
-        "kick 2",
-        "security 2",
-        "autoexec causing issue",
-        "autoexec folder"
+        "security kick 2", "autoexec issue", "script runs before kiciahook",
+        "kick 2", "security 2", "autoexec causing issue", "autoexec folder"
       ],
       "reply": "Something in your executor's AutoExec folder is conflicting with KiciaHook. Here is how to fix it:",
       "steps": [
@@ -499,20 +389,14 @@
       "title": "Reseller Did Not Provide a Key",
       "category": "support_only",
       "keywords": [
-        "no premium key",
-        "reseller no key",
-        "did not get key",
-        "missing key",
-        "proof of purchase",
-        "reseller scam"
+        "no premium key", "reseller no key", "did not get key",
+        "missing key", "proof of purchase", "reseller scam",
+        "bought but no key"
       ],
       "match_phrases": [
-        "reseller no key",
-        "did not get key",
-        "missing key",
-        "seller didnt send key",
-        "reseller scammed me",
-        "bought premium no key"
+        "reseller no key", "did not get key", "missing key",
+        "seller didnt send key", "reseller scammed me",
+        "bought premium no key", "paid but no key"
       ],
       "reply": "If you bought from a reseller and haven't received your key:",
       "steps": [
@@ -526,19 +410,14 @@
       "title": "Features Not Visible on Your Screen",
       "category": "visual",
       "keywords": [
-        "feature not visible",
-        "orbit aura not showing",
-        "hide under floor not working",
-        "visual bug",
-        "cant see feature"
+        "feature not visible", "orbit aura not showing",
+        "hide under floor not working", "visual bug", "cant see feature",
+        "feature invisible", "aura invisible"
       ],
       "match_phrases": [
-        "feature not visible",
-        "orbit aura not showing",
-        "hide under floor not working",
-        "my aura dont show",
-        "why cant i see orbit",
-        "feature invisible"
+        "feature not visible", "orbit aura not showing",
+        "hide under floor not working", "my aura dont show",
+        "why cant i see orbit", "feature invisible"
       ],
       "reply": "Some features (like Hide Under Floor or Orbit Aura) are client-side only. This means they look completely normal on your screen, but other players will see the effect. This is intentional and not a bug."
     },
@@ -547,21 +426,14 @@
       "title": "Cannot Generate a New Key (Hit Key Limit)",
       "category": "key",
       "keywords": [
-        "cannot get new key",
-        "no more keys",
-        "5 out of 5 keys",
-        "luarmor key limit",
-        "max keys",
-        "key limit reached"
+        "cannot get new key", "no more keys", "5 out of 5 keys",
+        "luarmor key limit", "max keys", "key limit reached",
+        "cant make new key"
       ],
       "match_phrases": [
-        "max keys",
-        "cannot get new key",
-        "no more keys",
-        "5 out of 5 keys",
-        "luarmor key limit",
-        "cant make new key",
-        "hit key limit"
+        "max keys", "cannot get new key", "no more keys",
+        "5 out of 5 keys", "luarmor key limit", "cant make new key",
+        "hit key limit", "reached key limit"
       ],
       "reply": "Luarmor limits each account to a maximum of 5 keys. You cannot generate a new one. Here is what to do instead:",
       "steps": [
@@ -575,24 +447,14 @@
       "title": "Where to Buy / Pricing / Robux Payment",
       "category": "purchase",
       "keywords": [
-        "where to buy",
-        "price",
-        "how much",
-        "cost",
-        "robux",
-        "rbx",
-        "payment",
-        "buy premium",
-        "reseller"
+        "where to buy", "price", "how much", "cost", "pricing",
+        "robux", "rbx", "payment", "buy premium", "reseller",
+        "buy kicia", "purchase"
       ],
       "match_phrases": [
-        "where to buy",
-        "how to buy",
-        "how much does it cost",
-        "price of kicia",
-        "can i pay with robux",
-        "robux payment",
-        "where are resellers"
+        "where to buy", "how to buy", "how much does it cost",
+        "price of kicia", "can i pay with robux", "robux payment",
+        "where are resellers", "can i buy with"
       ],
       "reply": "For all pricing, payment methods (including Robux), and to purchase Premium, please check out the resellers channel here: <https://discord.com/channels/1279483425002361003/1464668736349798642>"
     },
@@ -601,41 +463,28 @@
       "title": "GUI Layout Guide",
       "category": "gui",
       "keywords": [
-        "where is",
-        "gui layout",
-        "which tab",
-        "what tab",
-        "where to find"
+        "where is", "gui layout", "which tab", "what tab", "where to find",
+        "where can i find", "which menu"
       ],
       "match_phrases": [
-        "where is",
-        "where do i find",
-        "which tab",
-        "where is legitbot",
-        "where is silent aim",
-        "where is orbit aura",
-        "where is anti aim"
+        "where is", "where do i find", "which tab",
+        "where is legitbot", "where is silent aim", "where is orbit aura",
+        "where is anti aim", "where is triggerbot", "where is esp",
+        "where is fly", "where is walkspeed"
       ],
-      "reply": "Here is where everything is located in the KiciaHook GUI:\\n\\n- **Combat:** Legitbot, Silent Aim, Triggerbot, Rage (Contains Orbit Aura & Anti Aim)\\n- **Visuals:** ESP, Overrides, World, Players\\n- **Misc:** Movement, Fly, Walkspeed, Slideboost, Auto Queue, Device Spoofer, Hitsounds, Weapons (Unlock All, No Spread, Anti Katata), Auto Loadout\\n- **Settings:** Keybinds, Auto Run Script, Configs"
+      "reply": "Here is where everything is located in the KiciaHook GUI:\n\n• **Combat:** Legitbot, Silent Aim, Triggerbot, Rage (Contains Orbit Aura & Anti Aim)\n• **Visuals:** ESP, Overrides, World, Players\n• **Misc:** Movement, Fly, Walkspeed, Slideboost, Auto Queue, Device Spoofer, Hitsounds, Weapons (Unlock All, No Spread, Anti Katata), Auto Loadout\n• **Settings:** Keybinds, Auto Run Script, Configs"
     },
     {
       "id": "issue_17",
       "title": "No Spread Causing Long Melee",
       "category": "feature",
       "keywords": [
-        "no spread",
-        "long melee",
-        "quick melee broken",
-        "melee not working",
-        "melee bug"
+        "no spread", "long melee", "quick melee broken",
+        "melee not working", "melee bug", "melee long", "melee slow"
       ],
       "match_phrases": [
-        "no spread",
-        "long melee",
-        "quick melee not working",
-        "melee bugged",
-        "no spread melee",
-        "why is my melee long"
+        "no spread", "long melee", "quick melee not working",
+        "melee bugged", "no spread melee", "why is my melee long"
       ],
       "reply": "If you are getting a long melee animation when trying to quick melee, you need to turn off **No Spread**. This is a known side effect.",
       "steps": [
@@ -649,15 +498,11 @@
       "title": "Anti Katata Not Working",
       "category": "feature",
       "keywords": [
-        "anti katata",
-        "katata not working",
-        "anti katata broken",
-        "katata issue"
+        "anti katata", "katata not working", "anti katata broken",
+        "katata issue", "katana"
       ],
       "match_phrases": [
-        "anti katata",
-        "katata not working",
-        "anti katata broken",
+        "anti katata", "katata not working", "anti katata broken",
         "why doesnt anti katata work"
       ],
       "reply": "Anti Katata is heavily ping-dependent. If you have high ping, it may not work reliably. This is a game limitation, not a bug."
@@ -667,17 +512,12 @@
       "title": "Out of Bounds is Bugged",
       "category": "feature",
       "keywords": [
-        "out of bounds",
-        "oob bug",
-        "oob broken",
-        "out of bounds not working"
+        "out of bounds", "oob bug", "oob broken", "out of bounds not working",
+        "oob not working"
       ],
       "match_phrases": [
-        "out of bounds",
-        "out of bounds not working",
-        "out of bounds broken",
-        "oob not working",
-        "oob bugged"
+        "out of bounds", "out of bounds not working", "out of bounds broken",
+        "oob not working", "oob bugged"
       ],
       "reply": "Out of Bounds is currently bugged and may not work correctly. This is a known issue that we are aware of."
     },
@@ -686,47 +526,36 @@
       "title": "Magic Bullet Patched",
       "category": "feature",
       "keywords": [
-        "magic bullet",
-        "magic bullet not working",
-        "magic bullet gone",
-        "magic bullet patched"
+        "magic bullet", "magic bullet not working", "magic bullet gone",
+        "magic bullet patched", "mb not working"
       ],
       "match_phrases": [
-        "magic bullet",
-        "magic bullet not working",
-        "magic bullet gone",
-        "where is magic bullet",
-        "magic bullet broken"
+        "magic bullet", "magic bullet not working", "magic bullet gone",
+        "where is magic bullet", "magic bullet broken"
       ],
       "reply": "Magic Bullet has been patched by the game developers and is no longer available in KiciaHook."
     },
     {
       "id": "issue_21",
-      "title": "Where to Find the Workspace Folder (Synapse Z & Yub X)",
+      "title": "Where to Find the Workspace Folder",
       "category": "folder",
       "keywords": [
-        "workspace folder",
-        "where is workspace",
-        "find workspace",
-        "yub x folder",
-        "synapse folder",
-        "localappdata",
-        "executor folder"
+        "workspace folder", "where is workspace", "find workspace",
+        "yub x folder", "synapse folder", "volt folder", "localappdata",
+        "executor folder", "where is the folder"
       ],
       "match_phrases": [
-        "where is my workspace",
-        "how to find workspace",
-        "cant find workspace folder",
-        "where is the yub x folder",
-        "where is synapse z folder",
-        "how to open workspace",
-        "where is my executor folder"
+        "where is my workspace", "how to find workspace",
+        "cant find workspace folder", "where is the yub x folder",
+        "where is synapse z folder", "how to open workspace",
+        "where is my executor folder", "where is volt folder"
       ],
-      "reply": "If you need to find your executor's workspace folder (usually to place a config), you can open it directly using the Windows Run menu:",
+      "reply": "If you need to find your executor's workspace folder (usually to place a config), open it directly using the Windows Run menu:",
       "steps": [
-        "Press **Windows Key + R** on your keyboard to open the Run window, or search 'Run' in the windows search bar.",
-        "For **Synapse Z**: Type `%localappdata%\\\\synapse z` and press Enter.",
-        "For **Yub X**: Type `%localappdata%\\\\yubx` and press Enter.",
+        "Press **Windows Key + R** on your keyboard (or search 'Run' in the Windows search bar).",
+        "For **Synapse Z**: Type `%localappdata%\\synapse z` and press Enter.",
+        "For **Yub X**: Type `%localappdata%\\yubx` and press Enter.",
+        "For **Volt / Isaeva / Potassium**: Check the executor's own menu for a 'Workspace' or 'Open Folder' button.",
         "Once the folder opens, look for the **workspace** folder inside."
       ]
     },
@@ -735,26 +564,14 @@
       "title": "Whitelist / Key Not Working",
       "category": "key",
       "keywords": [
-        "whitelist",
-        "not whitelisted",
-        "key not working",
-        "key error",
-        "key invalid",
-        "key issue",
-        "redeem key",
-        "key wont work",
-        "key doesnt work"
+        "whitelist", "not whitelisted", "key not working",
+        "key error", "key invalid", "key issue", "redeem key",
+        "key wont work", "key doesnt work", "activate key"
       ],
       "match_phrases": [
-        "not whitelisted",
-        "whitelist issue",
-        "key not working",
-        "key error",
-        "key invalid",
-        "my key doesnt work",
-        "key wont activate",
-        "how to redeem key",
-        "redeem key"
+        "not whitelisted", "whitelist issue", "key not working",
+        "key error", "key invalid", "my key doesnt work",
+        "key wont activate", "how to redeem key", "redeem key"
       ],
       "reply": "To activate your key and get whitelisted, you need to redeem it in the panel.",
       "steps": [
@@ -762,15 +579,53 @@
         "Find the Kicia Panel message.",
         "Click **Redeem Key** and enter your key."
       ]
+    },
+    {
+      "id": "issue_23",
+      "title": "Script Expired / Key Expired",
+      "category": "key",
+      "keywords": [
+        "key expired", "script expired", "expired",
+        "renew key", "extend key", "subscription ended", "expires"
+      ],
+      "match_phrases": [
+        "my key expired", "script expired",
+        "how to renew", "how to renew key", "how to extend",
+        "key ran out", "subscription ended", "when does my key expire"
+      ],
+      "reply": "Free keys expire every 24 hours and need to be renewed. Premium keys run on a subscription and expire at the end of the billing period.",
+      "steps": [
+        "For a **free key**: go to the free panel → find your key → click **Renew**.",
+        "For a **premium key**: go to the premium panel → find your key → check the expiry date. If it expired, purchase another from a reseller: <https://discord.com/channels/1279483425002361003/1464668736349798642>"
+      ]
+    },
+    {
+      "id": "issue_24",
+      "title": "Script Panel Link / Where to Get Script",
+      "category": "script",
+      "keywords": [
+        "where is script", "where panel", "panel link",
+        "script link", "where to get script", "redeem script",
+        "get script"
+      ],
+      "match_phrases": [
+        "where is the script", "where do i get script",
+        "panel link", "script panel", "free script where",
+        "premium script where", "how to get the script"
+      ],
+      "reply": "Script panels are located here:",
+      "steps": [
+        "**Free script panel:** <https://discord.com/channels/1279483425002361003/1298767534736277595>",
+        "**Premium script panel:** <https://discord.com/channels/1279483425002361003/1484259191039332473>",
+        "Click **Redeem Script** in the panel to copy the script."
+      ]
     }
   ],
   "bot_rules": {
     "always_check_executor_first": true,
-    "executor_warning_reply": "Most issues are caused by unsupported or outdated executors. Please make sure you are using a supported executor.",
+    "executor_warning_reply": "Most issues are caused by executing in the main lobby or by using an unsupported executor. Please make sure you are using a supported executor and that you joined a match before executing.",
     "unsupported_executor_reply": "That executor is unsupported. Using unsupported executors can cause detection, instability, script errors, or features not working correctly. Please switch to a supported executor.",
-    "support_only_categories": [
-      "support_only"
-    ],
+    "support_only_categories": ["support_only"],
     "support_only_reply": "This issue needs to be handled by staff. Please ping a staff member.",
     "unknown_reply": "This isn't a known issue in our documentation. Please ping a staff member for further assistance."
   }
