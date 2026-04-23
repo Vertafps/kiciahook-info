@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "KiciaHook Support Knowledge Base",
-    "last_updated": "2026-04-16",
+    "last_updated": "2026-04-23",
     "version": "2.0",
     "support_server": "https://discord.gg/WAnkEtzgh4",
     "notes": [
@@ -89,6 +89,24 @@
         "status": "not_recommended",
         "aliases": ["ronix", "ronix executor"],
         "reply": "Ronix does not work fully — projectiles crash. It is recommended to use a fully supported executor instead."
+      },
+      {
+        "name": "Opiumware",
+        "status": "not_recommended",
+        "aliases": ["opiumware", "opium", "opium executor", "opiumware executor"],
+        "reply": "Opiumware has not been tested with KiciaHook. It could work, but we can't guarantee it. Use a fully supported executor for the best experience."
+      },
+      {
+        "name": "Hydrogen",
+        "status": "not_recommended",
+        "aliases": ["hydrogen", "hydrogen executor"],
+        "reply": "Hydrogen has not been tested with KiciaHook. It could work, but we can't guarantee it. Use a fully supported executor for the best experience."
+      },
+      {
+        "name": "MacSploit",
+        "status": "not_recommended",
+        "aliases": ["macsploit", "mac sploit", "macsploit executor", "mac executor"],
+        "reply": "MacSploit has not been tested with KiciaHook. It could work, but we can't guarantee it. Use a fully supported executor for the best experience."
       }
     ],
     "unsupported": [
