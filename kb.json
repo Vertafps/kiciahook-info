@@ -637,6 +637,33 @@
         "**Premium script panel:** <https://discord.com/channels/1279483425002361003/1484259191039332473>",
         "Click **Redeem Script** in the panel to copy the script."
       ]
+    },
+    {
+      "id": "issue_25",
+      "title": "Silent Aim, Rage, and Projectile TP Not Working",
+      "category": "feature",
+      "keywords": [
+        "silent aim", 
+        "rage", 
+        "projectile tp", 
+        "patched", 
+        "anticheat", 
+        "not working", 
+        "broken"
+      ],
+      "match_phrases": [
+        "silent aim not working", 
+        "rage not working", 
+        "projectile tp broken", 
+        "projectile tp not working", 
+        "rage broken", 
+        "silent aim broken",
+        "features not working"
+      ],
+      "reply": "Features such as silent aim, rage, and projectile TP currently do not work because the Rivals anticheat updated and patched some projectile TP functions.",
+      "steps": [
+        "Please wait for Kicia to fully update rage and other features properly."
+      ]
     }
   ],
   "bot_rules": {
