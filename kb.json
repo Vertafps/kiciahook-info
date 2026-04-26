@@ -1,8 +1,8 @@
 {
   "meta": {
     "name": "KiciaHook Support Knowledge Base",
-    "last_updated": "2026-04-23",
-    "version": "2.0",
+    "last_updated": "2026-04-26",
+    "version": "2.1",
     "support_server": "https://discord.gg/WAnkEtzgh4",
     "notes": [
       "Most issues are caused by executing in the main lobby, outdated Roblox, or unsupported executors.",
@@ -59,6 +59,7 @@
         "status": "supported",
         "type": "paid",
         "compatibility": "fully compatible",
+        "link": null,
         "aliases": ["volt", "volt executor", "volts"]
       }
     ],
@@ -82,31 +83,36 @@
         "name": "Velocity",
         "status": "not_recommended",
         "aliases": ["velocity", "velo", "velocity executor"],
-        "reply": "Velocity does not work fully — projectiles crash. It is recommended to use a fully supported executor instead."
+        "reply": "Velocity does not work fully — projectiles crash. It is recommended to use a fully supported executor instead.",
+        "link": null
       },
       {
         "name": "Ronix",
         "status": "not_recommended",
         "aliases": ["ronix", "ronix executor"],
-        "reply": "Ronix does not work fully — projectiles crash. It is recommended to use a fully supported executor instead."
+        "reply": "Ronix does not work fully — projectiles crash. It is recommended to use a fully supported executor instead.",
+        "link": null
       },
       {
         "name": "Opiumware",
         "status": "not_recommended",
         "aliases": ["opiumware", "opium", "opium executor", "opiumware executor"],
-        "reply": "Opiumware has not been tested with KiciaHook. It could work, but we can't guarantee it. Use a fully supported executor for the best experience."
+        "reply": "Opiumware has not been tested with KiciaHook. It could work, but we can't guarantee it. Use a fully supported executor for the best experience.",
+        "link": null
       },
       {
         "name": "Hydrogen",
         "status": "not_recommended",
         "aliases": ["hydrogen", "hydrogen executor"],
-        "reply": "Hydrogen has not been tested with KiciaHook. It could work, but we can't guarantee it. Use a fully supported executor for the best experience."
+        "reply": "Hydrogen has not been tested with KiciaHook. It could work, but we can't guarantee it. Use a fully supported executor for the best experience.",
+        "link": null
       },
       {
         "name": "MacSploit",
         "status": "not_recommended",
         "aliases": ["macsploit", "mac sploit", "macsploit executor", "mac executor"],
-        "reply": "MacSploit has not been tested with KiciaHook. It could work, but we can't guarantee it. Use a fully supported executor for the best experience."
+        "reply": "MacSploit has not been tested with KiciaHook. It could work, but we can't guarantee it. Use a fully supported executor for the best experience.",
+        "link": null
       }
     ],
     "unsupported": [
@@ -114,49 +120,57 @@
         "name": "Xeno",
         "status": "unsupported",
         "aliases": ["xeno", "xeno executor"],
-        "reply": "Xeno is unsupported and does not work with KiciaHook. Please switch to a supported executor."
+        "reply": "Xeno is unsupported and does not work with KiciaHook. Please switch to a supported executor.",
+        "link": null
       },
       {
         "name": "Solara",
         "status": "unsupported",
         "aliases": ["solara", "sol", "solara executor"],
-        "reply": "Solara is unsupported and does not work with KiciaHook. Please switch to a supported executor."
+        "reply": "Solara is unsupported and does not work with KiciaHook. Please switch to a supported executor.",
+        "link": null
       },
       {
         "name": "Fluxus",
         "status": "unsupported",
         "aliases": ["fluxus", "flux", "fluxus executor"],
-        "reply": "Fluxus is unsupported and does not work with KiciaHook. Please switch to a supported executor."
+        "reply": "Fluxus is unsupported and does not work with KiciaHook. Please switch to a supported executor.",
+        "link": null
       },
       {
         "name": "Krnl",
         "status": "unsupported",
         "aliases": ["krnl", "krnl executor"],
-        "reply": "Krnl is unsupported and does not work with KiciaHook. Please switch to a supported executor."
+        "reply": "Krnl is unsupported and does not work with KiciaHook. Please switch to a supported executor.",
+        "link": null
       },
       {
         "name": "Swift",
         "status": "unsupported",
         "aliases": ["swift", "swift executor"],
-        "reply": "Swift is unsupported and does not work with KiciaHook. Please switch to a supported executor."
+        "reply": "Swift is unsupported and does not work with KiciaHook. Please switch to a supported executor.",
+        "link": null
       },
       {
         "name": "Evon",
         "status": "unsupported",
         "aliases": ["evon", "evon executor"],
-        "reply": "Evon is unsupported and does not work with KiciaHook. Please switch to a supported executor."
+        "reply": "Evon is unsupported and does not work with KiciaHook. Please switch to a supported executor.",
+        "link": null
       },
       {
         "name": "Celery",
         "status": "unsupported",
         "aliases": ["celery", "celery executor"],
-        "reply": "Celery is unsupported and does not work with KiciaHook. Please switch to a supported executor."
+        "reply": "Celery is unsupported and does not work with KiciaHook. Please switch to a supported executor.",
+        "link": null
       },
       {
         "name": "Ronin",
         "status": "unsupported",
         "aliases": ["ronin", "ronin executor"],
-        "reply": "Ronin is unsupported and does not work with KiciaHook. Please switch to a supported executor."
+        "reply": "Ronin is unsupported and does not work with KiciaHook. Please switch to a supported executor.",
+        "link": null
       }
     ]
   },
@@ -283,7 +297,8 @@
         "need to reset hwid", "new pc hwid", "changed pc",
         "changed executor need hwid reset"
       ],
-      "reply": "We no longer manually reset HWIDs. Please wait out your cooldown."
+      "reply": "We no longer manually reset HWIDs. Please wait out your cooldown.",
+      "steps": []
     },
     {
       "id": "issue_6",
@@ -303,12 +318,7 @@
       "reply": "Roblox has updated, but your executor hasn't caught up yet. You have two options:",
       "steps": [
         "Wait for your supported executor to release an update (usually takes up to 24 hours).",
-        "If you don't want to wait, you can manually downgrade your Roblox client using one of the links below."
-      ],
-      "links": [
-        "https://weao.xyz",
-        "https://inject.today",
-        "https://voxlis.net/roblox/"
+        "If you don't want to wait, you can manually downgrade your Roblox client using one of these links: https://weao.xyz | https://inject.today | https://voxlis.net/roblox/"
       ]
     },
     {
@@ -325,7 +335,8 @@
         "what does premium have", "what is different in premium",
         "is premium worth it", "should i buy premium"
       ],
-      "reply": "The main difference is **Orbit Aura**, which is exclusive to KiciaHook Premium. Premium offers stronger combat performance overall, but your results still depend heavily on your config settings."
+      "reply": "The main difference is **Orbit Aura**, which is exclusive to KiciaHook Premium. Premium offers stronger combat performance overall, but your results still depend heavily on your config settings.",
+      "steps": []
     },
     {
       "id": "issue_8",
@@ -342,7 +353,8 @@
       ],
       "reply": "This is almost always a config issue, not a premium issue. A free user with a perfect config can easily beat a premium user with a bad config.",
       "steps": [
-        "Go to **Settings** inside the KiciaHook GUI.",
+        "Open the KiciaHook GUI.",
+        "Go to **Settings > Configs**.",
         "Adjust your settings for combat or load an optimized combat config."
       ]
     },
@@ -379,7 +391,8 @@
         "account transfer", "discord ban", "banned from discord",
         "my discord got banned", "help with transfer", "transfer my account"
       ],
-      "reply": "This needs to be handled by staff. Please ping a staff member in the server."
+      "reply": "This needs to be handled by staff. Please ping a staff member in the server.",
+      "steps": []
     },
     {
       "id": "issue_11",
@@ -437,7 +450,8 @@
         "hide under floor not working", "my aura dont show",
         "why cant i see orbit", "feature invisible"
       ],
-      "reply": "Some features (like Hide Under Floor or Orbit Aura) are client-side only. This means they look completely normal on your screen, but other players will see the effect. This is intentional and not a bug."
+      "reply": "Some features (like Hide Under Floor or Orbit Aura) are client-side only. This means they look completely normal on your screen, but other players will see the effect. This is intentional and not a bug.",
+      "steps": []
     },
     {
       "id": "issue_14",
@@ -474,7 +488,8 @@
         "price of kicia", "can i pay with robux", "robux payment",
         "where are resellers", "can i buy with"
       ],
-      "reply": "For all pricing, payment methods (including Robux), and to purchase Premium, please check out the resellers channel here: <https://discord.com/channels/1279483425002361003/1464668736349798642>"
+      "reply": "For all pricing, payment methods (including Robux), and to purchase Premium, please check out the resellers channel here: <https://discord.com/channels/1279483425002361003/1464668736349798642>",
+      "steps": []
     },
     {
       "id": "issue_16",
@@ -490,7 +505,8 @@
         "where is anti aim", "where is triggerbot", "where is esp",
         "where is fly", "where is walkspeed"
       ],
-      "reply": "Here is where everything is located in the KiciaHook GUI:\n\n• **Combat:** Legitbot, Silent Aim, Triggerbot, Rage (Contains Orbit Aura & Anti Aim)\n• **Visuals:** ESP, Overrides, World, Players\n• **Misc:** Movement, Fly, Walkspeed, Slideboost, Auto Queue, Device Spoofer, Hitsounds, Weapons (Unlock All, No Spread, Anti Katata), Auto Loadout\n• **Settings:** Keybinds, Auto Run Script, Configs"
+      "reply": "Here is where everything is located in the KiciaHook GUI:\n\n• **Combat:** Legitbot, Silent Aim, Triggerbot, Rage (Contains Orbit Aura & Anti Aim)\n• **Visuals:** ESP, Overrides, World, Players\n• **Misc:** Movement, Fly, Walkspeed, Slideboost, Auto Queue, Device Spoofer, Hitsounds, Weapons (Unlock All, No Spread, Anti Katata), Auto Loadout\n• **Settings:** Keybinds, Auto Run Script, Configs",
+      "steps": []
     },
     {
       "id": "issue_17",
@@ -508,7 +524,7 @@
       "steps": [
         "Open the KiciaHook GUI.",
         "Navigate to **Misc > Weapons**.",
-        "Turn off No Spread."
+        "Turn off **No Spread**."
       ]
     },
     {
@@ -523,7 +539,8 @@
         "anti katata", "katata not working", "anti katata broken",
         "why doesnt anti katata work"
       ],
-      "reply": "Anti Katata is heavily ping-dependent. If you have high ping, it may not work reliably. This is a game limitation, not a bug."
+      "reply": "Anti Katata is heavily ping-dependent. If you have high ping, it may not work reliably. This is a game limitation, not a bug.",
+      "steps": []
     },
     {
       "id": "issue_19",
@@ -537,7 +554,8 @@
         "out of bounds", "out of bounds not working", "out of bounds broken",
         "oob not working", "oob bugged"
       ],
-      "reply": "Out of Bounds is currently bugged and may not work correctly. This is a known issue that we are aware of."
+      "reply": "Out of Bounds is currently bugged and may not work correctly. This is a known issue that we are aware of.",
+      "steps": []
     },
     {
       "id": "issue_20",
@@ -551,7 +569,8 @@
         "magic bullet", "magic bullet not working", "magic bullet gone",
         "where is magic bullet", "magic bullet broken"
       ],
-      "reply": "Magic Bullet has been patched by the game developers and is no longer available in KiciaHook."
+      "reply": "Magic Bullet has been patched by the game developers and is no longer available in KiciaHook.",
+      "steps": []
     },
     {
       "id": "issue_21",
@@ -643,27 +662,45 @@
       "title": "Silent Aim, Rage, and Projectile TP Not Working",
       "category": "feature",
       "keywords": [
-        "silent aim", 
-        "rage", 
-        "projectile tp", 
-        "patched", 
-        "anticheat", 
-        "not working", 
+        "silent aim",
+        "rage",
+        "projectile tp",
+        "patched",
+        "anticheat",
+        "not working",
         "broken"
       ],
       "match_phrases": [
-        "silent aim not working", 
-        "rage not working", 
-        "projectile tp broken", 
-        "projectile tp not working", 
-        "rage broken", 
+        "silent aim not working",
+        "rage not working",
+        "projectile tp broken",
+        "projectile tp not working",
+        "rage broken",
         "silent aim broken",
         "features not working"
       ],
       "reply": "Features such as silent aim, rage, and projectile TP currently do not work because the Rivals anticheat updated and patched some projectile TP functions.",
       "steps": [
-        "Please wait for Kicia to fully update rage and other features properly."
+        "Please wait for Kicia to fully update rage and other features."
       ]
+    },
+    {
+      "id": "issue_26",
+      "title": "KiciaHook Website / Official Site",
+      "category": "purchase",
+      "keywords": [
+        "kiciahook site", "kicia website", "official site", "kicia site",
+        "kiciahook website", "where is the site", "kicia link",
+        "official website", "kiciahook.com", "kicia.gg", "website"
+      ],
+      "match_phrases": [
+        "whats the kiciahook site", "whats the kicia site",
+        "kiciahook website", "kicia website", "official site",
+        "where is kiciahook site", "do you have a website",
+        "kicia link", "kiciahook link", "is there a website"
+      ],
+      "reply": "KiciaHook does not currently have an official website. For purchasing, pricing, and payment options (including Robux), please check the resellers channel: <https://discord.com/channels/1279483425002361003/1464668736349798642>",
+      "steps": []
     }
   ],
   "bot_rules": {
