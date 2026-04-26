@@ -59,7 +59,7 @@
         "status": "supported",
         "type": "paid",
         "compatibility": "fully compatible",
-        "link": null,
+        "link": "https://discord.gg/voltbz",
         "aliases": ["volt", "volt executor", "volts"]
       }
     ],
@@ -701,6 +701,52 @@
       ],
       "reply": "KiciaHook does not currently have an official website. For purchasing, pricing, and payment options (including Robux), please check the resellers channel: <https://discord.com/channels/1279483425002361003/1464668736349798642>",
       "steps": []
+    },
+     {
+      "id": "issue_27",
+      "title": "How to delete KiciaHook from Workspace",
+      "category": "workspace",
+      "keywords": [
+        "delete workspace", "remove workspace", "uninstall workspace",
+        "delete kiciahook", "remove kiciahook", "uninstall kiciahook",
+        "delete kicia", "remove kicia", "uninstall kicia"
+      ],
+      "match_phrases": [
+        "how to delete kiciahook from workspace", "how to remove kiciahook from workspace", "how to uninstall kiciahook from workspace",
+        "how to delete kicia", "how to remove kicia", "how to uninstall kicia",
+        "delete kiciahook from workspace", "remove kiciahook from workspace", "uninstall kiciahook from workspace"
+      ],
+      "reply": "If you need to find your executor's workspace folder to delete Kiciahook, follow these steps:",
+      "steps": [
+        "Press **Win + R** to open the Run dialog.",
+        "Type **%appdata%** and press Enter.",
+        "Navigate to your **executor folder**.",
+        "Click **workspace** and delete the **Kiciahook** folder."
+      ]
+    },
+     {
+      "id": "issue_28",
+      "title": "How to get a freemium key for Kiciahook",
+      "category": "fkey",
+      "keywords": [
+        "how to get key", "how to get freemium key", "how to get kiciahook key", "how to get kicia key",
+        "get key", "get freemium key", "get kiciahook key", "get kicia key",
+        "how to obtain key"
+      ],
+      "match_phrases": [
+        "how to get key", "how to get freemium key", "how to get kiciahook key", "how to get kicia key",
+        "get key", "get freemium key", "get kiciahook key", "get kicia key", "how to obtain key",
+        "how do i obtain a key", "how do i get a key", "how do i get a freemium key", "how do i get a kiciahook key",
+      ],
+      "reply": "To obtain a freemium key for Kiciahook, you can follow these steps:",
+      "steps": [
+        "click on one of the links: **Lootlabs** https://ads.luarmor.net/get_key?for=Kicia_V2__Lootlabs-SMXIkbgLHBUc or **adslift** https://ads.luarmor.net/get_key?for=Kicia_V2__Linkvertise-ovgXmLTYGpby",
+        "how to complete the key system",
+        "1. complete the captcha",
+        "2. close the pop-up",
+        "3. complete the task (download an app, visit a website, etc.)",
+        "4. click on **__get a new key__** after completing the tasks"
+      ]
     }
   ],
   "bot_rules": {
