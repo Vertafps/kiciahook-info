@@ -2,7 +2,7 @@
   "meta": {
     "name": "KiciaHook Support Knowledge Base",
     "last_updated": "2026-04-26",
-    "version": "2.1",
+    "version": "2.2",
     "support_server": "https://discord.gg/WAnkEtzgh4",
     "notes": [
       "Most issues are caused by executing in the main lobby, outdated Roblox, or unsupported executors.",
@@ -59,7 +59,7 @@
         "status": "supported",
         "type": "paid",
         "compatibility": "fully compatible",
-        "link": null,
+        "link": "https://discord.gg/voltbz",
         "aliases": ["volt", "volt executor", "volts"]
       }
     ],
@@ -188,7 +188,8 @@
         "nothing loads", "nothing happens", "nothing works",
         "lobby", "main menu", "menu",
         "doesnt work", "not working", "wont work", "not loading", "wont load",
-        "script not loading", "script wont load", "kicia not opening", "kicia wont open"
+        "script not loading", "script wont load", "kicia not opening", "kicia wont open",
+        "delete kiciahook", "remove kiciahook", "delete workspace", "remove workspace"
       ],
       "match_phrases": [
         "gui not loading", "ui not showing", "no gui", "no ui",
@@ -200,7 +201,8 @@
         "cannot confirm key", "key confirm",
         "doesnt work in lobby", "broken in lobby", "wont load in lobby",
         "kicia doesnt work", "kiciahook not working",
-        "doesnt load", "wont load", "wont work", "not loading"
+        "doesnt load", "wont load", "wont work", "not loading",
+        "delete kiciahook workspace", "remove kiciahook folder", "delete kicia folder"
       ],
       "cause": "Executing the script in the main lobby, using an unsupported executor, or using the wrong script.",
       "reply": "KiciaHook currently does **not** work in the main lobby. If your game is freezing, lagging, the GUI isn't loading, or you're getting kicked, it is almost always one of these things:",
@@ -211,7 +213,7 @@
         "Make sure you copied the correct full script from the panel.",
         "**Free script panel:** <https://discord.com/channels/1279483425002361003/1298767534736277595>",
         "**Premium script panel:** <https://discord.com/channels/1279483425002361003/1484259191039332473>",
-        "**If none of the above work** → Go to your executor's workspace folder, delete the `kiciahook` folder, and execute again."
+        "**If none of the above work** → Delete the KiciaHook folder from your executor's workspace and execute again. To find it: Press **Win + R**, type `%localappdata%` and press Enter, open your executor's folder, then open the **workspace** folder and delete the **KiciaHook** folder inside it."
       ]
     },
     {
@@ -701,6 +703,34 @@
       ],
       "reply": "KiciaHook does not currently have an official website. For purchasing, pricing, and payment options (including Robux), please check the resellers channel: <https://discord.com/channels/1279483425002361003/1464668736349798642>",
       "steps": []
+    },
+    {
+      "id": "issue_27",
+      "title": "How to Get a Free Key for KiciaHook",
+      "category": "key",
+      "keywords": [
+        "how to get key", "how to get free key", "how to get kiciahook key", "how to get kicia key",
+        "get key", "get free key", "get kiciahook key", "get kicia key",
+        "how to obtain key", "free key", "lootlabs", "adslift", "key system",
+        "key link", "key ads", "how to complete key", "freemium key"
+      ],
+      "match_phrases": [
+        "how to get key", "how to get free key", "how to get kiciahook key",
+        "get key", "get free key", "how do i get a key",
+        "how do i obtain a key", "how to complete key system",
+        "lootlabs key", "adslift key", "key not working ads",
+        "how to do the key", "how to get past the ads",
+        "how to get freemium key"
+      ],
+      "reply": "To get a free KiciaHook key, you need to complete a short key system. Pick one of the two links below and follow the steps carefully:",
+      "steps": [
+        "Choose a link to start: **Lootlabs** → https://ads.luarmor.net/get_key?for=Kicia_V2__Lootlabs-SMXIkbgLHBUc or **Adslift** → https://ads.luarmor.net/get_key?for=Kicia_V2__Linkvertise-ovgXmLTYGpby",
+        "When the page opens, **ads will likely pop up and open in new tabs automatically.** This is normal — just close any extra tabs that open and come back to the main key page.",
+        "Back on the key page, click the checkpoint or task button (it may say something like 'Start Task', 'Complete Checkpoint', or similar).",
+        "More ad tabs may open each time you click — keep closing them and returning to the key page until the task registers as complete.",
+        "Once the task is done, a **Get Key** button will appear (wording may vary). Click it to generate your key.",
+        "Copy the key, then redeem it in the Kicia panel to get whitelisted."
+      ]
     }
   ],
   "bot_rules": {
