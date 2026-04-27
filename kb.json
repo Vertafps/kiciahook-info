@@ -661,7 +661,7 @@
     },
     {
       "id": "issue_25",
-      "title": "Silent Aim, Rage Doesn't Work For Projectiles",
+      "title": "Silent Aim, Rage, and Projectile TP Not Working",
       "category": "feature",
       "keywords": [
         "silent aim",
@@ -681,7 +681,7 @@
         "silent aim broken",
         "features not working"
       ],
-      "reply": "Features such as silent aim and rage doesn't work for projectile weapons such as (bow,daggers,slingshot) currently, because Rivals anticheat updated and patched range projectiles. We are looking into this matter and solutions.",
+      "reply": "Features such as silent aim, rage, and projectile TP currently do not work because the Rivals anticheat updated and patched some projectile TP functions.",
       "steps": [
         "Please wait for Kicia to fully update rage and other features."
       ]
@@ -706,30 +706,36 @@
     },
     {
       "id": "issue_27",
-      "title": "How to Get a Free Key for KiciaHook",
+      "title": "How to Get a Key and Get Whitelisted (Free and Premium)",
       "category": "key",
       "keywords": [
         "how to get key", "how to get free key", "how to get kiciahook key", "how to get kicia key",
-        "get key", "get free key", "get kiciahook key", "get kicia key",
-        "how to obtain key", "free key", "lootlabs", "adslift", "key system",
-        "key link", "key ads", "how to complete key", "freemium key"
+        "get key", "get free key", "get premium key", "get kiciahook key", "get kicia key",
+        "how to obtain key", "free key", "premium key", "lootlabs", "adslift", "key system",
+        "key link", "key ads", "how to complete key", "freemium key",
+        "how to get whitelisted", "whitelist free", "whitelist premium",
+        "how to get access", "how to use kiciahook"
       ],
       "match_phrases": [
-        "how to get key", "how to get free key", "how to get kiciahook key",
-        "get key", "get free key", "how do i get a key",
-        "how do i obtain a key", "how to complete key system",
+        "how to get key", "how to get free key", "how to get premium key",
+        "how to get kiciahook key", "get key", "get free key", "get premium key",
+        "how do i get a key", "how do i obtain a key", "how to complete key system",
         "lootlabs key", "adslift key", "key not working ads",
         "how to do the key", "how to get past the ads",
-        "how to get freemium key"
+        "how to get freemium key", "how to get whitelisted",
+        "how to get access to kicia", "how to start using kiciahook"
       ],
-      "reply": "To get a free KiciaHook key, you need to complete a short key system. Pick one of the two links below and follow the steps carefully:",
+      "reply": "Here is how to get access to KiciaHook, both free and premium:",
       "steps": [
-        "Choose a link to start: **Lootlabs** → https://ads.luarmor.net/get_key?for=Kicia_V2__Lootlabs-SMXIkbgLHBUc or **Adslift** → https://ads.luarmor.net/get_key?for=Kicia_V2__Linkvertise-ovgXmLTYGpby",
-        "When the page opens, **ads will likely pop up and open in new tabs automatically.** This is normal — just close any extra tabs that open and come back to the main key page.",
-        "Back on the key page, click the checkpoint or task button (it may say something like 'Start Task', 'Complete Checkpoint', or similar).",
-        "More ad tabs may open each time you click — keep closing them and returning to the key page until the task registers as complete.",
-        "Once the task is done, a **Get Key** button will appear (wording may vary). Click it to generate your key.",
-        "Copy the key, then redeem it in the Kicia panel to get whitelisted."
+        "— FREE —",
+        "Open one of these key system links: **Lootlabs** → https://ads.luarmor.net/get_key?for=Kicia_V2__Lootlabs-SMXIkbgLHBUc or **Adslift** → https://ads.luarmor.net/get_key?for=Kicia_V2__Linkvertise-ovgXmLTYGpby",
+        "When the page opens, ads will automatically pop up in new tabs — this is normal. Close any extra tabs and return to the key page each time.",
+        "Click the checkpoint or task button on the key page (it may say 'Start Task', 'Complete Checkpoint', or similar). More ad tabs may open — keep closing them and coming back until the task is marked as complete.",
+        "Once the task is done, click the **Get Key** button (wording may vary) to generate your key.",
+        "Go to the **free panel** in the Discord server → click **Redeem Key** → enter your key to get whitelisted: <https://discord.com/channels/1279483425002361003/1298767534736277595>",
+        "— PREMIUM —",
+        "Purchase a key from one of the resellers here: <https://discord.com/channels/1279483425002361003/1464668736349798642>",
+        "Once you have your key, go to the **premium panel** in the Discord server → click **Redeem Key** → enter your key to get whitelisted: <https://discord.com/channels/1279483425002361003/1484259191039332473>"
       ]
     },
     {
