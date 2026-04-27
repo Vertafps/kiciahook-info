@@ -661,7 +661,7 @@
     },
     {
       "id": "issue_25",
-      "title": "Silent Aim, Rage, and Projectile TP Not Working",
+      "title": "Silent Aim, Rage Doesn't Work For Projectiles",
       "category": "feature",
       "keywords": [
         "silent aim",
@@ -681,7 +681,7 @@
         "silent aim broken",
         "features not working"
       ],
-      "reply": "Features such as silent aim, rage, and projectile TP currently do not work because the Rivals anticheat updated and patched some projectile TP functions.",
+      "reply": "Features such as silent aim and rage doesn't work for projectile weapons such as (bow,daggers,slingshot) currently, because Rivals anticheat updated and patched range projectiles. We are looking into this matter and solutions.",
       "steps": [
         "Please wait for Kicia to fully update rage and other features."
       ]
