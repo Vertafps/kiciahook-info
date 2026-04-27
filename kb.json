@@ -1,8 +1,8 @@
 {
   "meta": {
     "name": "KiciaHook Support Knowledge Base",
-    "last_updated": "2026-04-26",
-    "version": "2.2",
+    "last_updated": "2026-04-27",
+    "version": "2.3",
     "support_server": "https://discord.gg/WAnkEtzgh4",
     "notes": [
       "Most issues are caused by executing in the main lobby, outdated Roblox, or unsupported executors.",
@@ -730,6 +730,31 @@
         "More ad tabs may open each time you click — keep closing them and returning to the key page until the task registers as complete.",
         "Once the task is done, a **Get Key** button will appear (wording may vary). Click it to generate your key.",
         "Copy the key, then redeem it in the Kicia panel to get whitelisted."
+      ]
+    },
+    {
+      "id": "issue_28",
+      "title": "How to Reset Settings / Keybinds",
+      "category": "config",
+      "keywords": [
+        "reset settings", "reset keybinds", "reset config", "undo settings",
+        "wrong settings", "messed up settings", "accidentally changed settings",
+        "settings wrong", "keybinds wrong", "keybind messed up",
+        "how to reset", "default settings", "revert settings", "start fresh"
+      ],
+      "match_phrases": [
+        "how to reset settings", "how to reset keybinds", "reset my settings",
+        "reset my keybinds", "accidentally changed settings", "set wrong keybind",
+        "messed up my settings", "how do i reset settings",
+        "how do i go back to default", "revert settings", "undo config",
+        "wrong keybind how to fix", "settings are messed up"
+      ],
+      "reply": "If you accidentally changed your settings or keybinds and want to reset them, you need to delete or rename the config that is currently being loaded. Here is how:",
+      "steps": [
+        "Open your executor folder on your PC and navigate to **Workspace > KiciaHook > RivalsV2 > Configs**.",
+        "If you had a config set to **auto-load**, find that config file and either delete it or rename it (e.g. add `_old` to the end of the name). KiciaHook will then start fresh with no saved settings.",
+        "If you never set a config to auto-load, look for a file called **default.json** in that same folder and delete it or rename it.",
+        "Re-execute KiciaHook — it will load with default settings and your keybinds will be reset."
       ]
     }
   ],
