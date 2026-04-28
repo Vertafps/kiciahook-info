@@ -1,8 +1,8 @@
 {
   "meta": {
     "name": "KiciaHook Support Knowledge Base",
-    "last_updated": "2026-04-27",
-    "version": "2.3",
+    "last_updated": "2026-04-28",
+    "version": "2.4",
     "support_server": "https://discord.gg/WAnkEtzgh4",
     "notes": [
       "Most issues are caused by executing in the main lobby, outdated Roblox, or unsupported executors.",
@@ -61,6 +61,14 @@
         "compatibility": "fully compatible",
         "link": "https://discord.gg/voltbz",
         "aliases": ["volt", "volt executor", "volts"]
+      },
+      {
+        "name": "Seliware",
+        "status": "supported",
+        "type": "paid",
+        "compatibility": "fully compatible",
+        "link": "https://seliware.com/",
+        "aliases": ["seliware", "seli", "seliware executor", "seliw"]
       }
     ],
     "temporarily_not_working": [],
