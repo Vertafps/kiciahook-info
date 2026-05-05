@@ -69,6 +69,15 @@
         "compatibility": "fully compatible",
         "link": "https://seliware.com/",
         "aliases": ["seliware", "seli", "seliware executor", "seliw"]
+      },
+      {
+        "name": "Kernal",
+        "status": "supported",
+        "type": "paid",
+        "compatibility": "fully compatible",
+        "link": null,
+        "aliases": ["kernal", "kernal executor", "kernalware", "kernel", "kernel executor"],
+        "reply": "Oh the Kernal executor? The tuff kernalware? The insane looksmaxing sigma pro? If it existed it would be more than supported ;)"
       }
     ],
     "temporarily_not_working": [],
